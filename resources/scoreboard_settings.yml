@@ -1,0 +1,68 @@
+---
+# Scoreboard Configuration
+scoreboard_name: "§b&lNoxyPvP&3&lPvP&r &7| &fHCF"
+
+# Information: '{time}' takes the value of the remaining time
+CombatTag: "&c&lSpawn Tag&r&c: &c{time} "
+
+EnderPearl: "&e&lEnderPearl&r&e: &c{time} "
+
+StormBreaker: "&6&lStormBreaker&r&6: &c{time} "
+
+AntiTrapper: "&a&lAntiTrapper&r&a: &c{time} "
+
+EggPort: "&b&lSwitcher&r&b: &c{time} "
+
+SpecialItem: "&l&dPartner Item&r&d: &c{time} "
+
+Tank: "&l&7Tank Mode&r&7: &c{time} "
+
+RageBall: "&l&4RageBall&r&4: &c{time} "
+
+PotionCounter: "&l&ePotionCounter&r&e: &c{time} "
+
+GlobalCooldown: "&l&9Global Cooldown&r&9: &c{time} "
+
+Backstap: "&l&6Backstap&r&6: &c{time} "
+
+SecondChance: "&l&eSecondChance&r&3: &c{time} "
+
+NinjaShear: "&l&5NinjaShear&r&5: &c{time} "
+
+Apple: "&6&lApple&r&6: &c{time} "
+
+Logout: "&4&lLogout&r&4: &c{time} "
+
+Home: "&e&lTeleport&r&e: &c{time} "
+
+Stuck: "&4&lStuck&r&4: &c{time} "
+
+KEYALL: "&b&lKEYALL&r&b: &c{time} "
+
+SOTW: "&6&lSOTW&r&6 ends in: &6&l{time} "
+
+EOTW: "&4&lEOTW&r&4: &c{time} "
+
+KOTH: "&l&9{kothName}&r&9: &9{time} "
+
+AIRDROP: "&b&lAirDrop&r&8: &c{time}"
+
+CITADEL: "&l&6{citadelName}&r&6: &c{time} "
+
+Invincibility: "&a&lPvP Timer&r&a: &c{time} "
+
+BardEnergy: "&b&lBardEnergy&r&b: &c{bardEnergy}.0"
+
+ArcherEnergy: "&a&lArcherEnergy&r&a: &c{archerEnergy}.0"
+
+MageEnergy: "&5&lMageEnergy&r&5: &c{mageEnergy}.0"
+
+GhostEnergy: "&l&cNinjaEnergy&r&c: &c{ghostEnergy}.0"
+
+# These texts are displayed if the player focused on any faction
+factionFocus: [ 
+  "&3&lTeam&r&6: &r&9{factionName} ", 
+  "&3&lHQ&r&6: &r&9{factionHome} ", 
+  "&3&lDTR&r&6: &r&a{factionDTR}&c* ", 
+  "&3&lOnline&r&6: &r&9{factionOnlinePlayers} ", 
+]

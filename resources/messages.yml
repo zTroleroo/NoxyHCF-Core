@@ -1,0 +1,363 @@
+---
+# Server message configurator
+
+not_float_number: "&cYou cannot place decimal numbers"
+not_is_numeric: "&cYou are entering a string, it must be numeric!"
+not_is_string: "&cYou must use a text string, it must not have numbers!"
+string_is_a_big: "&cYou are placing a very large string, character limit: {allowedCharacters}"
+
+# FACTION COMMANDS:
+
+sender_got_to_stuck: "&cTeleporting in &7{time}!"
+sender_got_to_home: "&2Teleporting in &7{time}"
+sender_logout: "&bLogout in &7{time}&b don't move!"
+
+sender_has_not_money: "&cYou don't have current money: &e{money}"
+
+sender_did_not_focus_faction: "&cYou can't run this command, because you didn't focus on any faction!"
+sender_not_in_faction: "&cYou are not in any faction to execute this!" 
+
+sender_join_faction_correctly: "&eYou entered the faction &9{factionName} &ecorrectly!"
+sender_leave_of_faction_correctly: "&eYou leave the faction &9{factionName} &ecorrectly!"
+
+sender_is_in_faction: "&cYou are already in a Faction {factionName}!"
+sender_not_kick_other_player: "&cYou cannot kick a player who is not your faction!"
+
+sender_not_is_leader: "&cYou cannot erase this faction you are not the leader or co_leader!"
+sender_is_leader: "&cYou can't do this, because you are the leader of the faction!"
+sender_leave_of_faction_is_leader: "&cYou can't get out of this faction, put &e/f disband &cor &e/f delete &cto do something!"
+
+sender_see_zone: "&aClaim Zone already visible!"
+sender_hide_zone: "&aYou desactivated the visible zone of your claim!"
+
+sender_change_chat: "&eYou successfully switched to chat &2{currentChat}"
+
+sender_is_alredy_claiming: "&cThe &5Claim Tool&c is already added to your inventory, please write &ecancel&c in the chat"
+
+# PLAYER OPTIONS:
+
+partner_reclaim_correctly: "&e{playerName}&r &7has redeemed their &ePartner&7 rank rewards using &f/claim"
+
+infernal_reclaim_correctly: "&6{playerName}&r &7has redeemed their &6Infernal&7 rank rewards using &f/claim"
+
+ember_reclaim_correctly: "&4{playerName}&r &7has redeemed their &4Ember&7 rank rewards using &f/claim"
+
+averno_reclaim_correctly: "&e{playerName}&r &7has redeemed their &eAverno&7 rank rewards using &f/claim"
+
+demon_reclaim_correctly: "&c{playerName}&r &7has redeemed their &cDemon&7 rank rewards using &f/claim"
+
+soul_reclaim_correctly: "&2{playerName}&r &7has redeemed their &2Soul&7 rank rewards using &f/claim"
+
+nitro_reclaim_correctly: "&d{playerName}&r &7has redeemed their &dNitroBooster&7 rank rewards using &f/claim"
+
+miniyt_reclaim_correctly: "&c{playerName}&r &7has redeemed their &fMini&cYT&7 rank rewards using &f/claim"
+
+youtuber_reclaim_correctly: "&4{playerName}&r &7has redeemed their &4Youtuber&7 rank rewards using &f/claim"
+
+famous_reclaim_correctly: "&d{playerName}&r &7has redeemed their &dFamous&7 rank rewards using &f/claim"
+
+guest_reclaim_correctly: "&f{playerName}&r &7has redeemed their &fMember&7 rank rewards using &f/claim"
+
+staff_reclaim_correctly: "&e{playerName}&r &7has redeemed their &eSTAFFTEAM&7 rank rewards using &f/claim"
+
+player_is_in_combatTag: "&cYou are in SpawnTag&r"
+
+player_is_in_teleport_time: "&cYou already have the &l&eTeleporting Time&r &cactivated, you cannot run this again!"
+player_is_in_logout_time: "&cYou are already in &l&eLogout Time&r &cyou cannot run the command again!"
+
+player_move_in_teleport_time: "&cYou moved in &eTeleport Time&r&c time was canceled"
+player_move_in_logout_time: "&cYou moved in &eLogout Time&r&c time was canceled"
+
+player_is_not_in_faction: "&cThe player you are logged in has no faction!"
+
+player_is_not_in_your_zone: "&cYou can only execute this command in your claim!"
+
+player_not_drop_tool: "&eYou can not throw this object, place &ccancel&e in chat!"
+
+player_not_is_online: "&cThe player you are looking for is not connected!"
+
+player_do_not_invite_yourself: "&cYou can't invite yourself!"
+player_is_already_invited: "&cThe player has been invited before to another faction!"
+player_has_not_pending_invitations: "&cYou have no pending invitations for now!"
+player_is_already_in_faction: "&cThe player is part of another faction!"
+player_invite_correctly: "&aYou were invited to the faction &9{factionName}&a, you must put &e'/f accept' &aor &e'/f deny' &ato do something"
+player_decline_invitation_correctly: "&cYou correctly declined the invitation of the faction &e{factionName}"
+
+player_have_invincibility: "&cYou have &aPvP Timer&r&c place &e'/pvp enable' for this"
+other_player_have_invincibility: "&e{playerName}&r&c have &aPvP Timer&r&c by &f{time}"
+
+player_not_enter_zone_with_invincibility: "&cYou can't enter while you have &aPvP Timer&r&c put the command &e'/pvp enable'"
+player_not_execute_command_with_invincibility: "&cYou can't run this command with &aPvP Timer&r&c put the command &e'/pvp enable'"
+
+# FACTION OPTIONS:
+
+faction_exists: "&c{factionName} it was already created by someone else!"
+faction_create: "&aFaction {factionName} was created correctly!"
+
+faction_big_name: "&c&cYour faction name cannot contain more than 15 characters!"
+faction_small_name: "&cYour faction must have more than 5 characters to create it!"
+
+faction_not_kick_leader: "&cCan't kick the faction leader!"
+
+faction_create_correctly: "&eFaction &9{factionName} &eit was created by &c{playerName}"
+faction_delete_correctly: "&eFaction &9{factionName} &ewas deleted correctly!"
+
+faction_is_full: "&eFaction &9{factionName} &eis full!"
+faction_is_raid: "&cYou can't do this, your faction is raid!"
+faction_not_exists: "&cThe faction &e{factionName} &cdoes not exist within the server!"
+
+faction_player_connect: "&2a&lMember Online&r&a: &a*{playerName} is now Online!"
+faction_player_desconnect: "&c&lMember Offline&r&c: &c*{playerName} is now Offlime"
+
+faction_player_join_to_faction_correctly: "&9{playerName} &ejoined the faction!"
+faction_player_leave_to_faction_correctly: "&9{playerName} &eleft the faction!"
+
+faction_place_home: "&9{playerName}&e placed the HQ Zone!"
+faction_home_not_exists: "&cYou can not go to your home, because it was not registered yet, put &e'/f sethome' &cto be able to execute this command!"
+
+faction_not_damage_member: "&eYou can't hurt &2{playerName}!"
+faction_player_death: "&a{playerName} &edied!%n%&cYou'r dtr is: &e{currentDtr}"
+faction_player_chat: "&2&[Faction]&6{playerName}&r&6: &e{message}"
+
+faction_player_is_leader: "&cYou can't do this, you are not the leader of the faction"
+
+faction_cannot_interact: "&eYou can do this in &c{claimName}&e's territory!"
+
+faction_player_deposit_money: "&6{playerName} &aI deposit a total of money &6${money}"
+faction_player_withdraw_money: "&6{playerName} &aPulled out total of money &6${money}"
+
+faction_not_claim_other_zone: "&cYou cannot make your claim here, because it is already busy!"
+faction_zone_is_big: "&cYour zone is very large, it must be at least &e250 blocks."
+
+faction_zone_cost: "&aNow put &6'accept' &a in the chat to claim your zone, cost of your claim is &6${claimCost}"
+faction_zone_exists: "&cYou already claimed a zone place &6/f unclaim &cto delete the one you already have!"
+faction_zone_not_exists: "&cYou cannot use this command, because you never created a claim!"
+faction_zone_delete_correctly: "&aYou successfully deleted your claim, you can create another one again using &6/f claim"
+
+faction_zone_accept: "&aYour area was claimed correctly &7(&eif you don't like it you can delete it with &6'/f unclaim'&7)"
+faction_zone_cancel: "&cYour request to claim a zone was canceled!"
+
+faction_small_distance_of_spawn: "&cYou can only claim in &r&aWilderness&r&c, or after 400 blocks away from the spawn!"
+
+faction_location_zone_first: "&aFirst Position of claim in: &6(&e{positionX}, {positionZ}&6)"
+faction_location_zone_second: "&aSecond Position of claim in: &6(&e{positionX}, {positionZ}&6)"
+
+faction_zone_not_select_position: "&c You did not mark the 2 positions, you can't accept!"
+
+faction_claim_zone_help: "&aYou can make your claim, Left click to register &6position 1&a, Right click for &6position 2"
+faction_not_have_money_for_claim_zone: "&cThe money of your faction is not enough to claim!"
+
+faction_information: "&2&{factionName} &r&7({players}&e/&7{maxPlayers})&r &6 | &eHome: &c{home}%n%
+&eLeader: &a{leader}%n%
+&eCo-Leader: &a{co_leader}%n%
+&eFaction Members:&r &a{onlinePlayers}%n%
+&eBalance: &a{balance}%n%
+&eTime Until Regen: &a{timeRegen} minutes%n%
+&eDeaths until Raidable: &a{currentDtr}"
+
+faction_list_information: "&l&9{factionName}&r&f - &9Online&f: &9[&9{onlinePlayers}&7/&9{maxPlayers}&9]" 
+
+# ARCHER OPTIONS:
+
+archer_tag_mark_target: "&cYou archer marked to the player &l&e{playerName}&r &c({playerHealth}) &e+ 10%&r &cadditional damage!"
+
+archer_give_effects: "&aYou just gave yourself the effect of &b{effectName} {effectLevel}"
+
+archer_not_enough_energy: "&aYou don't have enough energy to give that effect &b{currentEnergy}.0 &ayou need &e{needEnergy}.0"
+
+# ROGUE OPTIONS:
+
+rogue_made_backstab_target: "&cYou made a &l&eBackstab&r&c to the player &l&e{playerName}&r&c their current hearts ({playerHealth})"
+
+# BARD OPTIONS:
+
+bard_global_give_effects: "&c{playerName}&r&e gives &b{effectName} {effectLevel}"
+
+bard_give_effects: "&eYou give &b{effectName} {effectLevel}"
+
+bard_not_enough_energy: "&eYou don't have enough energy to use this &b{currentEnergy}.0 &e need &c{needEnergy}.0"
+
+# GHOST OPTIONS:
+
+ninja_global_give_effects: "&6{playerName}&r&d just gave your faction members the effect &6{effectName} {effectLevel}"
+
+ninja_give_effects: "&dYou just gave yourself the effect of &6{effectName} {effectLevel}"
+
+ninja_not_enough_energy: "&aYou don't have enough energy to give that effect &b{currentEnergy}.0 &ayou need &e{needEnergy}.0"
+
+ninja_tag_mark_target: "&dYou made &l&cNinjaTag&r &dto the player &l&6{playerName}&r &6({playerHealth}) &4+ 10%&r &dadditional damage!"
+
+ninja_made_backstab_target: "&dYou made a &l&cFatality&r&d to the player &l&6{playerName}&r&d their current hearts ({playerHealth})"
+
+# MAGE OPTIONS:
+
+mage_global_give_effects: "&6{playerName}&r&5 just gave your faction members the effect &c{effectName} {effectLevel}"
+
+mage_give_effects: "&5You just gave yourself the effect of &c{effectName} {effectLevel}"
+
+mage_not_enough_energy: "&5You don't have enough energy to use this effect &c{currentEnergy}.0 &ayou need &e{needEnergy}.0"
+
+# COOLDOWN OPTIONS:
+
+function_cooldown: "&cYou must wait {time} to use this again!"
+
+apple_cooldown: "&cYou have cooldwon to use &l&6Apple&r &cagain!"
+
+enderpearl_cooldown: "&cYou have cooldown to use &r&l&eEnderPearl"
+
+stormbreaker_cooldown: "&cYou have cooldown to use &r&l&6StormBreaker"
+
+eggport_cooldown: "&cYou have cooldown to use &r&l&bSwitcher"
+
+specialitem_cooldown: "&cYou have cooldown to use &r&l&dPartner Item"
+
+ninjashear_cooldown: "&cYou must wait {time} to be able to use &r&l&6NinjaShear"
+
+potioncounter_cooldown: "&cYou must wait {time} to be able to use &r&l&6PotionCounter"
+
+rageball_cooldown: "&cYou are in &4&lRageBall&r&c cooldown for {time}"
+
+antitrapper_cooldown: "&cYou have cooldown to use &r&l&6AntiTrapper"
+
+antitrapper_target_cooldown: "&cYou have to wait {time} to be able to &eplace blocks and open fences &cagain!"
+
+giftchest_cooldown: "&cYou cannot open the &l&aGiftchest&r&c you must wait {time} to open it"
+
+# COMMANDS OPTIONS:
+
+player_not_rename_other_item: "&cI cannot rename other items other than swords, pickaxes or armor!"
+player_rename_correctly: "&aYour item has the new name of &e{itemName}"
+
+player_current_player_in_a_world: "&fThere are a total of &l&6{players}&r&f in the world of &l&6{worldName}"
+player_current_world_is_disable: "&cOpps, apparently this map doesn't exist, you can't see how many players there are"
+
+player_money_not_enough: "&cYou don't have that amount of money!"
+player_pay_money_correctly: "&aYou paid &l&e{playerName}&r&a a quantity of  &l&e${money}&r&a of money!"
+player_total_money: "&aYou have &l&e{money}&r &aof money!"
+
+player_fixhand_correctly: "&6The item in your hand was repaired!"
+
+player_fixall_correctly: "&6All items in your inventory were repaired!"
+player_fixall_other_player_correctly: "&aRepair all player items&f: &l&6{playerName}"
+
+player_fill_food_correctly: "&aYour food was brought to 100%"
+
+player_autofeed_enable_correctly: "&aYou activated the automatic food filling"
+player_autofeed_disable_correctly: "&cYou desactivated the automatic food filling"
+
+player_roollback_correctly: "&aObtained the inventory of &l&e{playerName}"
+
+# PvPCommand: These texts are displayed in the PvP command
+
+player_invincibility_is_enable: "&cYour &l&aPvP Timer&r&c has already been deactivated"
+player_invisibility_enable_correnctly: "&aYou successfully disabled your &aPvP Timer"
+
+player_check_lives: "&aYou have a total of &l&6{currentLives}&r&a lives"
+player_check_other_player_lives: "&l&6{playerName}&r&a has a total of &l&6{currentLives}&r&a lives"
+
+player_doesnt_have_enough_lives: "&cYou don't have enough lives"
+player_give_correctly_lives: "&aYou gave &l&6{lives}&r&a to the player &l&6{playerName}"
+
+# EVENT OPTIONS:
+
+giftchest_start_event: "&l&aGiftChest&r&7 just started go fight for the rewards!"
+
+# CRATES OPTIONS:
+
+crate_create_correctly: "&l&bNoxyPvP&3PvP&r&7 | You've been created a crate &e{crateName}&7 correctly!"
+crate_delete_correctly: "&l&bNoxyPvP&3PvP&r&7 | You've been deleted a crate &e{crateName}&7 correctly!"
+
+crate_alredy_exists: "&cThis crate is been already create!"
+crate_not_exists: "&cThe crate {crateName} not exists!"
+
+place_crate_correctly: "&l&bNoxyPvP&3PvP&r&7 | &e{crateName}&7 was spawned correctly!"
+remove_crate_correctly: "&l&bNoxyPvP&3PvP&r&7 | &e{crateName}&7 was removed correctly!"
+
+crate_give_reward_correctly: "&l&bNoxyPvP&3PvP&r&7 | &fYou've won a &b{itemName}"
+crate_give_key_correctly: "&l&bNoxyPvP&3PvP&r&7 | You have received a key"
+
+crate_rewards_empty: "&cNot have rewards in this crate!"
+
+crate_edit_items_correctly: "&aCrate content &l&6{crateName}&r&a was edited correctly!"
+crate_edit_block_correctly: "&aCrate block &l&6{crateName}&r&a was edited correctly!"
+crate_edit_format_correctly: "&aCrate format &l&6{crateName}&r&a was edited correctly!"
+crate_edit_key_format_correctly: "&aCrate key format &l&6{crateName}&r&a was edited correctly!"
+
+# KITS OPTIONS:
+
+kit_create_correctly: "&aKit &l&6{kitName}&r &awas created successfully!"
+kit_delete_correctly: "&aKit &l&6{kitName}&r &awas deleted successfully!"
+
+kit_alredy_exists: "&cThe kit &e{kitName}&c has already been created before!"
+kit_not_exists: "&cThe kit &e{kitName}&c was never registered!"
+
+kit_edit_items_correctly: "&aKit content &l&6{kitName}&r&a was edited correctly!"
+kit_edit_permission_correctly: "&aKit permission &l&6{kitName}&r&a was edited correctly!"
+kit_edit_format_correctly: "&aKit format &l&6{kitName}&r&a was edited correctly!"
+
+# KOTH OPTIONS: 
+
+koth_create_correctly: "&aKoth &l&9{kothName}&r &awas created successfully!"
+koth_delete_correctly: "&aKoth &l&9{kothName}&r &awas deleted successfully!"
+
+koth_alredy_exists: "&cThe koth &e{kothName}&c has already been created before!"
+koth_not_exists: "&cThe Koth &e{kothName}&c was never registered!"
+
+koth_alredy_enable: "&c{kothName} was already activated, if you want to turn on another KOTH, you must turn off the current one or wait for it to finish!"
+koth_is_not_activated: "&c{kothName} KOTH is not activated"
+
+koth_was_started: "&l&8[&l&6KOTH&r&l&8]&r &6{kothName}&r&e was started, go fight to unique rewards!"
+
+koth_is_capturing: "&l&8[&l&6KOTH&r&l&8]&r &6Someone&r&e is now capturing &6{kothName} &eKOTH!"
+koth_is_captured: "&l&8[&l&6KOTH&r&l&8]&r &6{kothName} &eKOTH&r&e was captured by &6{playerName}"
+
+koth_not_have_arenas: "&cYou cannot see the list, because there is no registered KOTH"
+
+koth_list_of_arenas: "&6KOTH Arenas: "
+koth_list: "&a{kothName}&r&f &8[&f{position}&8:&f{worldName}&8]&r &e(&f{status}&e)"
+
+# CITADEL OPTIONS: 
+
+citadel_create_correctly: "&acitadel &l&9{citadelName}&r &awas created successfully!"
+citadel_delete_correctly: "&acitadel &l&9{citadelName}&r &awas deleted successfully!"
+
+citadel_alredy_exists: "&cThe citadel &e{citadelName}&c has already been created before!"
+koth_not_exists: "&cThe citadel &e{citadelName}&c was never registered!"
+
+citadel_alredy_enable: "&c{citadelName} was already activated, if you want to turn on another CITADEL, you must turn off the current one or wait for it to finish!"
+citadel_is_not_activated: "&c{citadelName} CITADEL is not activated"
+
+citadel_was_started: "&l&8[&l&cCITADEL&r&l&8]&r &6{citadelName}&r&a was started, go to claim unique rewards!"
+
+citadel_is_capturing: "&l&8[&l&eSlyther&cCITADEL&r&l&8]&r &6{playerName}&r&a is now capturing &6{citadelName} CITADEL"
+citadel_is_captured: "&l&8[&l&bSlyther&cCITADEL&r&l&8]&r &c{citadelName} CITADEL&r&a was captured by &b{playerName}"
+
+citadel_not_have_arenas: "&cYou cannot see the list, because there is no registered CITADEL"
+
+citadel_list_of_arenas: "&6CITADEL Arenas: "
+citadel_list: "&a{citadelName}&r&f &8[&f{position}&8:&f{worldName}&8]&r &e(&f{status}&e)"
+
+# SHOPS OPTIONS:
+
+shop_create_correctly: "&aThe shop was created successfully!"
+shop_remove_correctly: "&aYou successfully removed the shop!"
+
+shop_has_an_error: "&cYou have an error in one line, you should check if everything is correct!"
+
+shop_correctly_bought_the_item: "&aYou have successfully purchased&f: &6{itemName}"
+shop_successfully_sold_the_item: "&aYou have successfully sold&f: &6{itemName}"
+
+shop_dont_have_that_item: "&cYou don't have that item!"
+shop_dont_have_money_to_buy_the_item: "&cYou don't have enough of money!"
+shop_inventory_is_full: "&cYour inventory is full, you cannot buy this item!"
+
+# SPECIAL ITEMS OPTIONS:
+
+ninjashear_was_used_correctly: "&6You will teleport to the position of the last hit in 3 seconds"
+ninjashear_have_no_hit_registered: "&cYou can't use this, because no one has hit you!"
+
+stormbreaker_was_used_correctly: "&e{playerName}&r&6 will remove his helmet in 3 seconds"
+stormbreaker_cannot_remove_the_helmet: "&cYou cannot remove the helmet, as long as the player has other items in hand"
+
+potioncounter_count_target_inventory_potion: "&6{playerName}&r &7have a total of &l&b{potionsTotal}&r&7 in your &6Inventory"
+potioncounter_count_target_enderchest_potion: "&6{playerName}&r &7have a total of &l&b{potionsTotal}&r&7 in your &6EnderChest"

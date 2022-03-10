@@ -1,0 +1,5 @@
+name: NoxyHCF
+author: zTroleroo
+main: VitalHCF\Loader
+version: 1.0.0
+api: [3.2.3]
