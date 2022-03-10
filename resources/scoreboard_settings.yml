@@ -1,6 +1,6 @@
 ---
 # Scoreboard Configuration
-scoreboard_name: "§b&lNoxyPvP&3&lPvP&r &7| &fHCF"
+scoreboard_name: "§b&lNoxy&3&lPvP&r &7| &fHCF"
 
 # Information: '{time}' takes the value of the remaining time
 CombatTag: "&c&lSpawn Tag&r&c: &c{time} "
